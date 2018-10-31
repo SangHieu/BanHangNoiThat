@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BanHangNoiThat.Forms
 {
-    public partial class GiaodienAdim : Form
+    public partial class GiaodienAdmin : Form
     {
-        public GiaodienAdim()
+        public GiaodienAdmin()
         {
             InitializeComponent();
         }

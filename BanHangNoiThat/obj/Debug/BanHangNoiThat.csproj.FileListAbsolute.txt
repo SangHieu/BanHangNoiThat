@@ -66,7 +66,6 @@ D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.Amincontrol.AminQLSP.resources
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Login.resources
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.FormSignIn.resources
-D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.GiaodienAdim.resources
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.GiaodienUser.resources
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.UsersControl.AddCart.resources
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.UsersControl.DetailProduct.resources
@@ -95,3 +94,5 @@ D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\bin\Debug\Microsoft.SqlSe
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.SqlTDiagM.dll
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.csproj.CopyComplete
+D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.Admin_login.resources
+D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.GiaodienAdmin.resources

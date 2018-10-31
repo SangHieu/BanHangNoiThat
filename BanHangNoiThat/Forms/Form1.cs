@@ -18,6 +18,31 @@ namespace BanHangNoiThat
             InitializeComponent();
         }
 
+        private bool checkexitform(string name)
+        {
+            bool check = false;
+            foreach (Form frm in this.MdiChildren)
+            {
+                if (frm.Name == name)
+                {
+                    check = true;
+                    break;
+                }
+            }
+            return check;
+        }
+        private void activechirldform(string name)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                if (frm.Name == name)
+                {
+                    frm.Activate();
+                    break;
+                }
+            }
+        }
+
         private void btnexit_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -44,16 +69,43 @@ namespace BanHangNoiThat
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            GiaodienUser Frgd = new GiaodienUser();
-            Frgd.Show();
-            this.Hide();
+            if (!checkexitform("GiaodienUser"))
+            {
+                GiaodienUser frm = new GiaodienUser();
+                frm.ShowDialog();
+            }
+            else
+            {
+                activechirldform("GiaodienUser");
+            }
+            this.Close();
         }
 
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        private void btnSign_Click(object sender, EventArgs e)
         {
-            FormSignIn fr = new FormSignIn();
-            fr.Show();
-            this.Hide();
+            if (!checkexitform("FormSignIn"))
+            {
+                FormSignIn frm = new FormSignIn();
+                frm.ShowDialog();
+            }
+            else
+            {
+                activechirldform("FormSignIn");
+            }
+        }
+
+        private void Login_admin_Click(object sender, EventArgs e)
+        {
+            if (!checkexitform("Admin_login"))
+            {
+                Admin_login frm = new Admin_login();
+                frm.ShowDialog();
+            }
+            else
+            {
+                activechirldform("Admin_login");
+            }
+            this.Close();
         }
     }
 }

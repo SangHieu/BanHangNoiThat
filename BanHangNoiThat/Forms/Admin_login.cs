@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BanHangNoiThat.Forms
 {
-    public partial class FormSignIn : Form
+    public partial class Admin_login : Form
     {
-        public FormSignIn()
+        public Admin_login()
         {
             InitializeComponent();
         }
@@ -42,14 +42,22 @@ namespace BanHangNoiThat.Forms
             }
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Sign in successfull !");
             this.Close();
         }
 
-        private void btnexit_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
+            if (!checkexitform("GiaodienAdmin"))
+            {
+                GiaodienAdmin frm = new GiaodienAdmin();
+                frm.ShowDialog();
+            }
+            else
+            {
+                activechirldform("GiaodienAdmin");
+            }
             this.Close();
         }
     }
