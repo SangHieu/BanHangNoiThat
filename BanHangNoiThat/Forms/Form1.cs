@@ -16,6 +16,8 @@ namespace BanHangNoiThat
         public Login()
         {
             InitializeComponent();
+            btnLogin.Enabled = false;
+            
         }
 
         private bool checkexitform(string name)
@@ -55,17 +57,10 @@ namespace BanHangNoiThat
 
         private void username_Click(object sender, EventArgs e)
         {
-            if (username.Text != null)
-                username.ResetText();
-             
+            if (username.Text != "")
+                username.Text = "";
         }
 
-
-        private void password_Click(object sender, EventArgs e)
-        {
-            if (password.Text != null)
-                password.ResetText();
-        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -78,6 +73,7 @@ namespace BanHangNoiThat
             {
                 activechirldform("GiaodienUser");
             }
+            //check id, pass
             this.Close();
         }
 
@@ -106,6 +102,69 @@ namespace BanHangNoiThat
                 activechirldform("Admin_login");
             }
             this.Close();
+        }
+
+
+
+        private void password_Click(object sender, EventArgs e)
+        {
+            if (password.Text != "")
+                password.Text = "";
+        }
+
+        private void Login_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            /*if (e.KeyChar == (char)13)
+            {
+                btnLogin_Click(sender,e);
+            }
+            else
+            {
+                kiemTraKTSo(sender, e);
+            }*/
+        }
+
+
+        void kiemTraKTSo(object sender, KeyPressEventArgs e)
+        {
+            if (!((e.KeyChar >= 64 && e.KeyChar < 122) || (e.KeyChar >= 48 && e.KeyChar < 58) || (e.KeyChar == 8)) ||
+                char.IsSymbol(e.KeyChar) || //Ký tự đặc biệt
+                char.IsWhiteSpace(e.KeyChar) || //Khoảng cách
+                char.IsPunctuation(e.KeyChar)) //Dấu chấm                
+            {
+                e.Handled = true; //Không cho thể hiện lên TextBox
+                MessageBox.Show("Vui lòng không nhập các kí tự đặc biệt, khoảng trăng");
+            }
+        }
+
+        private void username_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            kiemTraKTSo(sender, e);
+        }
+
+        private void password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            kiemTraKTSo(sender, e);
+        }
+
+        private void username_Leave(object sender, EventArgs e)
+        {
+            if (username.Text.Trim() == "")
+            {
+                MessageBox.Show("Bạn chưa nhập Tài khoản !");
+                username.Focus();
+            }
+        }
+
+        private void password_Leave(object sender, EventArgs e)
+        {
+            if (password.Text.Trim() == "")
+            {
+                MessageBox.Show("Bạn chưa nhập Mật khẩu !");
+                password.Focus();
+            }
+            else
+                btnLogin.Enabled = true;
         }
     }
 }

@@ -100,6 +100,8 @@
             this.username.Text = "User name";
             this.username.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.username.Click += new System.EventHandler(this.username_Click);
+            this.username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.username_KeyPress);
+            this.username.Leave += new System.EventHandler(this.username_Leave);
             // 
             // password
             // 
@@ -119,6 +121,8 @@
             this.password.Text = "Pasword";
             this.password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.password.Click += new System.EventHandler(this.password_Click);
+            this.password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.password_KeyPress);
+            this.password.Leave += new System.EventHandler(this.password_Leave);
             // 
             // label3
             // 
@@ -187,6 +191,7 @@
             this.btnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogin.BackgroundImage")));
             this.btnLogin.ButtonText = "Login";
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.Enabled = false;
             this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.SeaGreen;
             this.btnLogin.IdleBorderThickness = 1;
@@ -246,6 +251,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Login_KeyPress);
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
             this.ResumeLayout(false);
