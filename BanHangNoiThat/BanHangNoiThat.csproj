@@ -233,6 +233,7 @@
   <ItemGroup>
     <Content Include="images\power.png" />
     <Content Include="images\SP01.jpg" />
+    <None Include="Resources\1101435913439.6843.jpg" />
     <None Include="Resources\Delete_48px.png" />
     <None Include="Resources\Home_48px.png" />
     <None Include="Resources\Shopping Cart_48px.png" />

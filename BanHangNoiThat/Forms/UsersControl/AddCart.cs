@@ -26,5 +26,14 @@ namespace BanHangNoiThat.Forms.UsersControl
         {
 
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listviewsp.LargeImageList = imageList1;
+            ListViewItem iteam = new ListViewItem("Tên sản phẩm",0);
+            ListViewItem.ListViewSubItem subiteam = new ListViewItem.ListViewSubItem(iteam, "Cái lìn gì thế");
+            iteam.SubItems.Add(subiteam);
+            listviewsp.Items.Add(iteam);
+        }
     }
 }

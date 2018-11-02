@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -83,6 +84,17 @@ namespace BanHangNoiThat.Forms
         private void userSale1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuImageButton1_Click_1(object sender, EventArgs e)
+        {
+
+            
+        }
+
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            addCart1.BringToFront();
         }
     }
 }

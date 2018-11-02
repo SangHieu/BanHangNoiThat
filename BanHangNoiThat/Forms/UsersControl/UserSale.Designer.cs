@@ -96,11 +96,12 @@
             // imagespSale8
             // 
             this.imagespSale8.BackColor = System.Drawing.Color.White;
+            this.imagespSale8.Image = ((System.Drawing.Image)(resources.GetObject("imagespSale8.Image")));
             this.imagespSale8.ImageActive = null;
             this.imagespSale8.Location = new System.Drawing.Point(0, 0);
             this.imagespSale8.Name = "imagespSale8";
             this.imagespSale8.Size = new System.Drawing.Size(170, 170);
-            this.imagespSale8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagespSale8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagespSale8.TabIndex = 1;
             this.imagespSale8.TabStop = false;
             this.imagespSale8.Zoom = 10;
@@ -129,11 +130,12 @@
             // imagespSale7
             // 
             this.imagespSale7.BackColor = System.Drawing.Color.White;
+            this.imagespSale7.Image = ((System.Drawing.Image)(resources.GetObject("imagespSale7.Image")));
             this.imagespSale7.ImageActive = null;
             this.imagespSale7.Location = new System.Drawing.Point(0, 0);
             this.imagespSale7.Name = "imagespSale7";
             this.imagespSale7.Size = new System.Drawing.Size(170, 170);
-            this.imagespSale7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagespSale7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagespSale7.TabIndex = 1;
             this.imagespSale7.TabStop = false;
             this.imagespSale7.Zoom = 10;
@@ -162,11 +164,12 @@
             // imagespSale4
             // 
             this.imagespSale4.BackColor = System.Drawing.Color.White;
+            this.imagespSale4.Image = ((System.Drawing.Image)(resources.GetObject("imagespSale4.Image")));
             this.imagespSale4.ImageActive = null;
             this.imagespSale4.Location = new System.Drawing.Point(0, 0);
             this.imagespSale4.Name = "imagespSale4";
             this.imagespSale4.Size = new System.Drawing.Size(170, 170);
-            this.imagespSale4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagespSale4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagespSale4.TabIndex = 1;
             this.imagespSale4.TabStop = false;
             this.imagespSale4.Zoom = 10;
@@ -195,11 +198,12 @@
             // imagespSale6
             // 
             this.imagespSale6.BackColor = System.Drawing.Color.White;
+            this.imagespSale6.Image = ((System.Drawing.Image)(resources.GetObject("imagespSale6.Image")));
             this.imagespSale6.ImageActive = null;
             this.imagespSale6.Location = new System.Drawing.Point(0, 0);
             this.imagespSale6.Name = "imagespSale6";
             this.imagespSale6.Size = new System.Drawing.Size(170, 170);
-            this.imagespSale6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagespSale6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagespSale6.TabIndex = 1;
             this.imagespSale6.TabStop = false;
             this.imagespSale6.Zoom = 10;
@@ -228,11 +232,12 @@
             // imagespSale5
             // 
             this.imagespSale5.BackColor = System.Drawing.Color.White;
+            this.imagespSale5.Image = ((System.Drawing.Image)(resources.GetObject("imagespSale5.Image")));
             this.imagespSale5.ImageActive = null;
             this.imagespSale5.Location = new System.Drawing.Point(0, 0);
             this.imagespSale5.Name = "imagespSale5";
             this.imagespSale5.Size = new System.Drawing.Size(170, 170);
-            this.imagespSale5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagespSale5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagespSale5.TabIndex = 1;
             this.imagespSale5.TabStop = false;
             this.imagespSale5.Zoom = 10;
@@ -261,11 +266,12 @@
             // imagespSale3
             // 
             this.imagespSale3.BackColor = System.Drawing.Color.White;
+            this.imagespSale3.Image = ((System.Drawing.Image)(resources.GetObject("imagespSale3.Image")));
             this.imagespSale3.ImageActive = null;
             this.imagespSale3.Location = new System.Drawing.Point(0, 0);
             this.imagespSale3.Name = "imagespSale3";
             this.imagespSale3.Size = new System.Drawing.Size(170, 170);
-            this.imagespSale3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagespSale3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagespSale3.TabIndex = 1;
             this.imagespSale3.TabStop = false;
             this.imagespSale3.Zoom = 10;
@@ -294,11 +300,12 @@
             // imagespSale2
             // 
             this.imagespSale2.BackColor = System.Drawing.Color.White;
+            this.imagespSale2.Image = ((System.Drawing.Image)(resources.GetObject("imagespSale2.Image")));
             this.imagespSale2.ImageActive = null;
             this.imagespSale2.Location = new System.Drawing.Point(0, 0);
             this.imagespSale2.Name = "imagespSale2";
             this.imagespSale2.Size = new System.Drawing.Size(170, 170);
-            this.imagespSale2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagespSale2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagespSale2.TabIndex = 1;
             this.imagespSale2.TabStop = false;
             this.imagespSale2.Zoom = 10;
@@ -341,7 +348,7 @@
             this.imagespSale1.Location = new System.Drawing.Point(0, 0);
             this.imagespSale1.Name = "imagespSale1";
             this.imagespSale1.Size = new System.Drawing.Size(170, 170);
-            this.imagespSale1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagespSale1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagespSale1.TabIndex = 1;
             this.imagespSale1.TabStop = false;
             this.imagespSale1.Zoom = 10;

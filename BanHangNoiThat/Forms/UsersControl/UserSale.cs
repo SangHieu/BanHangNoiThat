@@ -47,8 +47,8 @@ namespace BanHangNoiThat.Forms.UsersControl
         void loadimage()
         {
             for (int index = 0; index < 8; index++)
-            {
-                //listimageSale[index].Image = Image.FromFile("C:\\Users\\BUI\\Pictures\\Saved Pictures\\SP01.jpg");
+            { 
+                //listimageSale[index].Image = Image.FromFile("C:\\Users\\BUI\\Pictures\\Saved Pictures\\SP02.jpg");
             }
 
         }

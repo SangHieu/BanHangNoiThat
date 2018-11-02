@@ -63,6 +63,16 @@ namespace BanHangNoiThat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1101435913439_6843 {
+            get {
+                object obj = ResourceManager.GetObject("1101435913439.6843", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Delete_48px {
             get {
                 object obj = ResourceManager.GetObject("Delete_48px", resourceCulture);

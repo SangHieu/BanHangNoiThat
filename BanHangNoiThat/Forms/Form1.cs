@@ -16,7 +16,7 @@ namespace BanHangNoiThat
         public Login()
         {
             InitializeComponent();
-            btnLogin.Enabled = false;
+            btnLogin.Enabled = true;
             
         }
 
@@ -64,6 +64,7 @@ namespace BanHangNoiThat
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            
             if (!checkexitform("GiaodienUser"))
             {
                 GiaodienUser frm = new GiaodienUser();

@@ -101,7 +101,7 @@
             this.imagesp1.Location = new System.Drawing.Point(0, 0);
             this.imagesp1.Name = "imagesp1";
             this.imagesp1.Size = new System.Drawing.Size(170, 170);
-            this.imagesp1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagesp1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagesp1.TabIndex = 1;
             this.imagesp1.TabStop = false;
             this.imagesp1.Zoom = 10;
@@ -139,11 +139,12 @@
             // imagesp2
             // 
             this.imagesp2.BackColor = System.Drawing.Color.White;
+            this.imagesp2.Image = ((System.Drawing.Image)(resources.GetObject("imagesp2.Image")));
             this.imagesp2.ImageActive = null;
             this.imagesp2.Location = new System.Drawing.Point(0, 0);
             this.imagesp2.Name = "imagesp2";
             this.imagesp2.Size = new System.Drawing.Size(170, 170);
-            this.imagesp2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagesp2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagesp2.TabIndex = 1;
             this.imagesp2.TabStop = false;
             this.imagesp2.Zoom = 10;
@@ -172,11 +173,12 @@
             // imagesp3
             // 
             this.imagesp3.BackColor = System.Drawing.Color.White;
+            this.imagesp3.Image = ((System.Drawing.Image)(resources.GetObject("imagesp3.Image")));
             this.imagesp3.ImageActive = null;
             this.imagesp3.Location = new System.Drawing.Point(0, 0);
             this.imagesp3.Name = "imagesp3";
             this.imagesp3.Size = new System.Drawing.Size(170, 170);
-            this.imagesp3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagesp3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagesp3.TabIndex = 1;
             this.imagesp3.TabStop = false;
             this.imagesp3.Zoom = 10;
@@ -205,11 +207,12 @@
             // imagesp5
             // 
             this.imagesp5.BackColor = System.Drawing.Color.White;
+            this.imagesp5.Image = ((System.Drawing.Image)(resources.GetObject("imagesp5.Image")));
             this.imagesp5.ImageActive = null;
             this.imagesp5.Location = new System.Drawing.Point(0, 0);
             this.imagesp5.Name = "imagesp5";
             this.imagesp5.Size = new System.Drawing.Size(170, 170);
-            this.imagesp5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagesp5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagesp5.TabIndex = 1;
             this.imagesp5.TabStop = false;
             this.imagesp5.Zoom = 10;
@@ -238,11 +241,12 @@
             // imagesp6
             // 
             this.imagesp6.BackColor = System.Drawing.Color.White;
+            this.imagesp6.Image = ((System.Drawing.Image)(resources.GetObject("imagesp6.Image")));
             this.imagesp6.ImageActive = null;
             this.imagesp6.Location = new System.Drawing.Point(0, 0);
             this.imagesp6.Name = "imagesp6";
             this.imagesp6.Size = new System.Drawing.Size(170, 170);
-            this.imagesp6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagesp6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagesp6.TabIndex = 1;
             this.imagesp6.TabStop = false;
             this.imagesp6.Zoom = 10;
@@ -271,11 +275,12 @@
             // imagesp4
             // 
             this.imagesp4.BackColor = System.Drawing.Color.White;
+            this.imagesp4.Image = ((System.Drawing.Image)(resources.GetObject("imagesp4.Image")));
             this.imagesp4.ImageActive = null;
             this.imagesp4.Location = new System.Drawing.Point(0, 0);
             this.imagesp4.Name = "imagesp4";
             this.imagesp4.Size = new System.Drawing.Size(170, 170);
-            this.imagesp4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagesp4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagesp4.TabIndex = 1;
             this.imagesp4.TabStop = false;
             this.imagesp4.Zoom = 10;
@@ -304,11 +309,12 @@
             // imagesp7
             // 
             this.imagesp7.BackColor = System.Drawing.Color.White;
+            this.imagesp7.Image = ((System.Drawing.Image)(resources.GetObject("imagesp7.Image")));
             this.imagesp7.ImageActive = null;
             this.imagesp7.Location = new System.Drawing.Point(0, 0);
             this.imagesp7.Name = "imagesp7";
             this.imagesp7.Size = new System.Drawing.Size(170, 170);
-            this.imagesp7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagesp7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagesp7.TabIndex = 1;
             this.imagesp7.TabStop = false;
             this.imagesp7.Zoom = 10;
@@ -337,11 +343,12 @@
             // imagesp8
             // 
             this.imagesp8.BackColor = System.Drawing.Color.White;
+            this.imagesp8.Image = ((System.Drawing.Image)(resources.GetObject("imagesp8.Image")));
             this.imagesp8.ImageActive = null;
             this.imagesp8.Location = new System.Drawing.Point(0, 0);
             this.imagesp8.Name = "imagesp8";
             this.imagesp8.Size = new System.Drawing.Size(170, 170);
-            this.imagesp8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagesp8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagesp8.TabIndex = 1;
             this.imagesp8.TabStop = false;
             this.imagesp8.Zoom = 10;

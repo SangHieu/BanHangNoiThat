@@ -93,11 +93,11 @@
             // Lablename
             // 
             this.Lablename.AutoSize = true;
-            this.Lablename.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lablename.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lablename.ForeColor = System.Drawing.Color.White;
             this.Lablename.Location = new System.Drawing.Point(18, 8);
             this.Lablename.Name = "Lablename";
-            this.Lablename.Size = new System.Drawing.Size(320, 27);
+            this.Lablename.Size = new System.Drawing.Size(287, 29);
             this.Lablename.TabIndex = 3;
             this.Lablename.Text = "ANH SANG FURNITURE ";
             // 
@@ -108,7 +108,7 @@
             this.usernameSignIn.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.usernameSignIn.BorderThickness = 3;
             this.usernameSignIn.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.usernameSignIn.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.usernameSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.usernameSignIn.ForeColor = System.Drawing.Color.DimGray;
             this.usernameSignIn.isPassword = false;
             this.usernameSignIn.Location = new System.Drawing.Point(273, 208);
@@ -126,7 +126,7 @@
             this.passwordSignIn.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.passwordSignIn.BorderThickness = 3;
             this.passwordSignIn.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.passwordSignIn.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.passwordSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.passwordSignIn.ForeColor = System.Drawing.Color.DimGray;
             this.passwordSignIn.isPassword = false;
             this.passwordSignIn.Location = new System.Drawing.Point(273, 259);
@@ -144,7 +144,7 @@
             this.Confirmpassword.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.Confirmpassword.BorderThickness = 3;
             this.Confirmpassword.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Confirmpassword.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Confirmpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Confirmpassword.ForeColor = System.Drawing.Color.DimGray;
             this.Confirmpassword.isPassword = false;
             this.Confirmpassword.Location = new System.Drawing.Point(273, 311);
@@ -162,7 +162,7 @@
             this.email.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.email.BorderThickness = 3;
             this.email.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.email.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.email.ForeColor = System.Drawing.Color.DimGray;
             this.email.isPassword = false;
             this.email.Location = new System.Drawing.Point(272, 361);
@@ -176,22 +176,22 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.GrayText;
             this.label3.Location = new System.Drawing.Point(268, 500);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(350, 17);
+            this.label3.Size = new System.Drawing.Size(320, 16);
             this.label3.TabIndex = 10;
             this.label3.Text = "Anh Sang Furniture - Enhance the value of your home";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(386, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 31);
+            this.label1.Size = new System.Drawing.Size(98, 31);
             this.label1.TabIndex = 11;
             this.label1.Text = "Sign In";
             // 
@@ -225,7 +225,7 @@
             this.btnConfirm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirm.BackgroundImage")));
             this.btnConfirm.ButtonText = "Confirm";
             this.btnConfirm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnConfirm.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirm.ForeColor = System.Drawing.Color.SeaGreen;
             this.btnConfirm.IdleBorderThickness = 1;
             this.btnConfirm.IdleCornerRadius = 20;
@@ -247,7 +247,7 @@
             this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.bunifuMetroTextbox1.BorderThickness = 3;
             this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.DimGray;
             this.bunifuMetroTextbox1.isPassword = false;
             this.bunifuMetroTextbox1.Location = new System.Drawing.Point(273, 98);

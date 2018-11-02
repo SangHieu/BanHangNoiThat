@@ -96,3 +96,38 @@ D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\bin\Debug\Microsoft.SqlSe
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.csproj.CopyComplete
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.Admin_login.resources
 D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.GiaodienAdmin.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\BanHangNoiThat.exe.config
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\BanHangNoiThat.exe
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\BanHangNoiThat.pdb
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\bin\Debug\Microsoft.SqlServer.SqlTDiagM.dll
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.Admin_login.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.Amincontrol.AminQLKH.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.Amincontrol.AminQLSP.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Login.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.FormSignIn.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.GiaodienAdmin.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.GiaodienUser.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.UsersControl.AddCart.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.UsersControl.DetailProduct.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.UsersControl.UserContact.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.UsersControl.UserHome.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.UsersControl.UserProduct.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Forms.UsersControl.UserSale.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.Properties.Resources.resources
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.csproj.GenerateResource.cache
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.csproj.CoreCompileInputs.cache
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.csproj.CopyComplete
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.exe
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.pdb
+C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.csprojAssemblyReference.cache
