@@ -16,5 +16,10 @@ namespace BanHangNoiThat.Forms.UsersControl
         {
             InitializeComponent();
         }
+
+        private void UserContact_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

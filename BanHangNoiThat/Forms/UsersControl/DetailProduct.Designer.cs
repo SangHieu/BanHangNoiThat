@@ -147,7 +147,7 @@
             this.Controls.Add(this.BuyNow);
             this.Controls.Add(this.pictureBox1);
             this.Name = "DetailProduct";
-            this.Size = new System.Drawing.Size(821, 461);
+            this.Size = new System.Drawing.Size(817, 461);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

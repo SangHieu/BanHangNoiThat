@@ -18,7 +18,7 @@ namespace BanHangNoiThat.Forms
         {
             InitializeComponent();
         }
-
+        public bool slidemenu;
         private void GiaodienUser_Load(object sender, EventArgs e)
         {
             userHome1.BringToFront();
@@ -37,18 +37,24 @@ namespace BanHangNoiThat.Forms
         {
             if(SideMenu.Width==50)
             {
-                SideMenu.Visible = false;
-               SideMenu.Width = 214;
-                bunifuPanel.ShowSync(SideMenu);
+                slidemenu = false;
+               SideMenu.Visible = false;
+               SideMenu.Width = 242;
+               bunifuPanel.ShowSync(SideMenu);
                // bunifuLogo.ShowSync(logo);
+               
+              
                 
             }
             else
             {
+                slidemenu = true;
                 //bunifuLogo.Hide(logo);
                 SideMenu.Visible = false;
                SideMenu.Width = 50;
-              bunifuPanel.ShowSync(SideMenu);
+               bunifuPanel.ShowSync(SideMenu);
+             // userProduct1.addPanel();
+
             }
         }
 
@@ -66,14 +72,14 @@ namespace BanHangNoiThat.Forms
 
         private void bunifuProduct_Click(object sender, EventArgs e)
         {
-            userProduct1.BringToFront();
+           userProduct1.BringToFront();
         }
 
       
 
         private void bunifuSale_Click(object sender, EventArgs e)
         {
-            userSale1.BringToFront();
+            //userSale1.BringToFront();
         }
 
         private void bunifuContact_Click(object sender, EventArgs e)
@@ -95,6 +101,16 @@ namespace BanHangNoiThat.Forms
         private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
             addCart1.BringToFront();
+        }
+
+        private void pnContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void addCart1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

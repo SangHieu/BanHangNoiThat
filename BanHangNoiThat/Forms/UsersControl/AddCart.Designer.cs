@@ -64,7 +64,7 @@
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(114)))), ((int)(((byte)(36)))));
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(114)))), ((int)(((byte)(36)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(481, 401);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(477, 401);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(98, 51);
@@ -90,7 +90,7 @@
             this.dathang.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(0)))), ((int)(((byte)(12)))));
             this.dathang.IdleForecolor = System.Drawing.Color.White;
             this.dathang.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(0)))), ((int)(((byte)(12)))));
-            this.dathang.Location = new System.Drawing.Point(595, 401);
+            this.dathang.Location = new System.Drawing.Point(591, 401);
             this.dathang.Margin = new System.Windows.Forms.Padding(5);
             this.dathang.Name = "dathang";
             this.dathang.Size = new System.Drawing.Size(208, 51);
@@ -106,7 +106,7 @@
             this.listviewsp.LargeImageList = this.imageList1;
             this.listviewsp.Location = new System.Drawing.Point(0, 0);
             this.listviewsp.Name = "listviewsp";
-            this.listviewsp.Size = new System.Drawing.Size(821, 387);
+            this.listviewsp.Size = new System.Drawing.Size(817, 387);
             this.listviewsp.SmallImageList = this.imageList1;
             this.listviewsp.TabIndex = 27;
             this.listviewsp.UseCompatibleStateImageBehavior = false;
@@ -138,7 +138,7 @@
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.dathang);
             this.Name = "AddCart";
-            this.Size = new System.Drawing.Size(821, 461);
+            this.Size = new System.Drawing.Size(817, 461);
             this.ResumeLayout(false);
             this.PerformLayout();
 
