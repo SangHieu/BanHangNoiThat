@@ -17,7 +17,6 @@ namespace BanHangNoiThat
         {
             InitializeComponent();
             btnLogin.Enabled = true;
-            
         }
 
         private bool checkexitform(string name)
@@ -115,14 +114,14 @@ namespace BanHangNoiThat
 
         private void Login_KeyPress(object sender, KeyPressEventArgs e)
         {
-            /*if (e.KeyChar == (char)13)
+            if (e.KeyChar == (char)13)
             {
                 btnLogin_Click(sender,e);
             }
             else
             {
                 kiemTraKTSo(sender, e);
-            }*/
+            }
         }
 
 
@@ -143,10 +142,6 @@ namespace BanHangNoiThat
             kiemTraKTSo(sender, e);
         }
 
-        private void password_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            kiemTraKTSo(sender, e);
-        }
 
         private void username_Leave(object sender, EventArgs e)
         {
@@ -157,15 +152,5 @@ namespace BanHangNoiThat
             }
         }
 
-        private void password_Leave(object sender, EventArgs e)
-        {
-            if (password.Text.Trim() == "")
-            {
-                MessageBox.Show("Bạn chưa nhập Mật khẩu !");
-                password.Focus();
-            }
-            else
-                btnLogin.Enabled = true;
-        }
     }
 }

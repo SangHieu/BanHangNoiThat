@@ -131,3 +131,4 @@ C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.csproj.CopyCom
 C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.exe
 C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.pdb
 C:\Users\BUI\Desktop\HeQT\BanHangNoiThat\obj\Debug\BanHangNoiThat.csprojAssemblyReference.cache
+D:\visual studio\C#\HeQT_BanHangNoiThat\BanHangNoiThat\bin\Debug\Bunifu_UI_v1.5.3.dll

@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Data;
+using System.Data.Sql;
+using System.Data.SqlClient;
+
 using BanHangNoiThat.DB_main;
 
 namespace BanHangNoiThat.BS_Main

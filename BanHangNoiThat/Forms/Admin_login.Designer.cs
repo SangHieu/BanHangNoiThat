@@ -124,6 +124,7 @@
             this.IPComboBox.Name = "IPComboBox";
             this.IPComboBox.Size = new System.Drawing.Size(170, 24);
             this.IPComboBox.TabIndex = 18;
+            this.IPComboBox.SelectedValueChanged += new System.EventHandler(this.IPComboBox_SelectedValueChanged);
             // 
             // label2
             // 
@@ -143,6 +144,7 @@
             this.DataComboBox.Name = "DataComboBox";
             this.DataComboBox.Size = new System.Drawing.Size(170, 24);
             this.DataComboBox.TabIndex = 20;
+            this.DataComboBox.SelectedValueChanged += new System.EventHandler(this.DataComboBox_SelectedValueChanged);
             // 
             // label4
             // 
@@ -177,9 +179,9 @@
             this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.Location = new System.Drawing.Point(133, 282);
             this.txtPass.Name = "txtPass";
-            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(170, 23);
             this.txtPass.TabIndex = 24;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // btnLogin
             // 
@@ -216,6 +218,7 @@
             this.PassCheckHint.TabIndex = 26;
             this.PassCheckHint.Text = "Hiện mật khẩu";
             this.PassCheckHint.UseVisualStyleBackColor = true;
+            this.PassCheckHint.CheckedChanged += new System.EventHandler(this.PassCheckHint_CheckedChanged);
             // 
             // label6
             // 

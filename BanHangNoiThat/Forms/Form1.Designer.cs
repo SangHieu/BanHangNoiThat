@@ -121,8 +121,7 @@
             this.password.Text = "Pasword";
             this.password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.password.Click += new System.EventHandler(this.password_Click);
-            this.password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.password_KeyPress);
-            this.password.Leave += new System.EventHandler(this.password_Leave);
+            this.password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Login_KeyPress);
             // 
             // label3
             // 
@@ -251,7 +250,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Login_KeyPress);
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
             this.ResumeLayout(false);
