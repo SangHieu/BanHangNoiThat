@@ -42,6 +42,7 @@
             this.btnexit = new System.Windows.Forms.Button();
             this.btnLogin = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Login_admin = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnForgotPass = new System.Windows.Forms.LinkLabel();
             this.header.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -232,10 +233,22 @@
             this.Login_admin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Login_admin.Click += new System.EventHandler(this.Login_admin_Click);
             // 
+            // btnForgotPass
+            // 
+            this.btnForgotPass.AutoSize = true;
+            this.btnForgotPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnForgotPass.Location = new System.Drawing.Point(139, 325);
+            this.btnForgotPass.Name = "btnForgotPass";
+            this.btnForgotPass.Size = new System.Drawing.Size(121, 18);
+            this.btnForgotPass.TabIndex = 10;
+            this.btnForgotPass.TabStop = true;
+            this.btnForgotPass.Text = "Quên mật khẩu ?";
+            // 
             // Login
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(395, 439);
+            this.Controls.Add(this.btnForgotPass);
             this.Controls.Add(this.Login_admin);
             this.Controls.Add(this.btnSignin);
             this.Controls.Add(this.btnexit);
@@ -271,6 +284,7 @@
         private Bunifu.Framework.UI.BunifuThinButton2 btnSignin;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.Framework.UI.BunifuThinButton2 Login_admin;
+        private System.Windows.Forms.LinkLabel btnForgotPass;
     }
 }
 

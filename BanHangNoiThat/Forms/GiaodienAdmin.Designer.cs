@@ -37,8 +37,8 @@
             this.btnHomeAmin = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnMenu = new Bunifu.Framework.UI.BunifuImageButton();
             this.contaner = new System.Windows.Forms.Panel();
-            this.aminQLKH1 = new BanHangNoiThat.Forms.Amincontrol.AminQLKH();
             this.aminQLSP1 = new BanHangNoiThat.Forms.Amincontrol.AminQLSP();
+            this.aminQLKH1 = new BanHangNoiThat.Forms.Amincontrol.AminQLKH();
             this.header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.SideMenu.SuspendLayout();
@@ -210,15 +210,6 @@
             this.contaner.Size = new System.Drawing.Size(783, 490);
             this.contaner.TabIndex = 5;
             // 
-            // aminQLKH1
-            // 
-            this.aminQLKH1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.aminQLKH1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.aminQLKH1.Location = new System.Drawing.Point(0, 0);
-            this.aminQLKH1.Name = "aminQLKH1";
-            this.aminQLKH1.Size = new System.Drawing.Size(783, 490);
-            this.aminQLKH1.TabIndex = 0;
-            // 
             // aminQLSP1
             // 
             this.aminQLSP1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -228,7 +219,16 @@
             this.aminQLSP1.Size = new System.Drawing.Size(783, 490);
             this.aminQLSP1.TabIndex = 1;
             // 
-            // GiaodienAdim
+            // aminQLKH1
+            // 
+            this.aminQLKH1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.aminQLKH1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.aminQLKH1.Location = new System.Drawing.Point(0, 0);
+            this.aminQLKH1.Name = "aminQLKH1";
+            this.aminQLKH1.Size = new System.Drawing.Size(783, 490);
+            this.aminQLKH1.TabIndex = 0;
+            // 
+            // GiaodienAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -237,7 +237,8 @@
             this.Controls.Add(this.SideMenu);
             this.Controls.Add(this.header);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "GiaodienAdim";
+            this.Name = "GiaodienAdmin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GiaodienAdim";
             this.header.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
