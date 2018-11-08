@@ -70,6 +70,7 @@
             this.Lablename.Size = new System.Drawing.Size(320, 27);
             this.Lablename.TabIndex = 2;
             this.Lablename.Text = "ANH SANG FURNITURE ";
+            this.Lablename.Click += new System.EventHandler(this.Lablename_Click);
             // 
             // bunifuElipse1
             // 
@@ -124,6 +125,7 @@
             this.IPComboBox.Name = "IPComboBox";
             this.IPComboBox.Size = new System.Drawing.Size(170, 24);
             this.IPComboBox.TabIndex = 18;
+            this.IPComboBox.SelectedIndexChanged += new System.EventHandler(this.IPComboBox_SelectedIndexChanged);
             this.IPComboBox.SelectedValueChanged += new System.EventHandler(this.IPComboBox_SelectedValueChanged);
             // 
             // label2

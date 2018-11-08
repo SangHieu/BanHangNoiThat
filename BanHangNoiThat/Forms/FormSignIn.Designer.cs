@@ -42,14 +42,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.btnexit = new System.Windows.Forms.Button();
-            this.btnConfirm = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.btnexit = new System.Windows.Forms.Button();
+            this.btnConfirm = new Bunifu.Framework.UI.BunifuThinButton2();
             this.flowLayoutPanel1.SuspendLayout();
             this.header.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -202,44 +202,6 @@
             this.bunifuDragControl1.TargetControl = this.header;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // btnexit
-            // 
-            this.btnexit.FlatAppearance.BorderSize = 0;
-            this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnexit.Image = global::BanHangNoiThat.Properties.Resources.gnome_session_hibernate1;
-            this.btnexit.Location = new System.Drawing.Point(589, 45);
-            this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(31, 30);
-            this.btnexit.TabIndex = 12;
-            this.btnexit.UseVisualStyleBackColor = false;
-            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
-            // 
-            // btnConfirm
-            // 
-            this.btnConfirm.ActiveBorderThickness = 1;
-            this.btnConfirm.ActiveCornerRadius = 20;
-            this.btnConfirm.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.btnConfirm.ActiveForecolor = System.Drawing.Color.White;
-            this.btnConfirm.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.btnConfirm.BackColor = System.Drawing.SystemColors.Control;
-            this.btnConfirm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirm.BackgroundImage")));
-            this.btnConfirm.ButtonText = "Confirm";
-            this.btnConfirm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirm.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btnConfirm.IdleBorderThickness = 1;
-            this.btnConfirm.IdleCornerRadius = 20;
-            this.btnConfirm.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btnConfirm.IdleForecolor = System.Drawing.Color.White;
-            this.btnConfirm.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btnConfirm.Location = new System.Drawing.Point(272, 425);
-            this.btnConfirm.Margin = new System.Windows.Forms.Padding(5);
-            this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(338, 51);
-            this.btnConfirm.TabIndex = 9;
-            this.btnConfirm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnConfirm.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
             // bunifuMetroTextbox1
             // 
             this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -322,6 +284,44 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Nam";
             this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // btnexit
+            // 
+            this.btnexit.FlatAppearance.BorderSize = 0;
+            this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnexit.Image = global::BanHangNoiThat.Properties.Resources.gnome_session_hibernate1;
+            this.btnexit.Location = new System.Drawing.Point(589, 45);
+            this.btnexit.Name = "btnexit";
+            this.btnexit.Size = new System.Drawing.Size(31, 30);
+            this.btnexit.TabIndex = 12;
+            this.btnexit.UseVisualStyleBackColor = false;
+            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
+            // 
+            // btnConfirm
+            // 
+            this.btnConfirm.ActiveBorderThickness = 1;
+            this.btnConfirm.ActiveCornerRadius = 20;
+            this.btnConfirm.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btnConfirm.ActiveForecolor = System.Drawing.Color.White;
+            this.btnConfirm.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btnConfirm.BackColor = System.Drawing.SystemColors.Control;
+            this.btnConfirm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirm.BackgroundImage")));
+            this.btnConfirm.ButtonText = "Confirm";
+            this.btnConfirm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirm.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btnConfirm.IdleBorderThickness = 1;
+            this.btnConfirm.IdleCornerRadius = 20;
+            this.btnConfirm.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnConfirm.IdleForecolor = System.Drawing.Color.White;
+            this.btnConfirm.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnConfirm.Location = new System.Drawing.Point(272, 425);
+            this.btnConfirm.Margin = new System.Windows.Forms.Padding(5);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(338, 51);
+            this.btnConfirm.TabIndex = 9;
+            this.btnConfirm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnConfirm.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // FormSignIn
             // 

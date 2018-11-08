@@ -57,6 +57,7 @@
             this.listViewSanpham.Size = new System.Drawing.Size(817, 426);
             this.listViewSanpham.TabIndex = 0;
             this.listViewSanpham.UseCompatibleStateImageBehavior = false;
+            this.listViewSanpham.ItemActivate += new System.EventHandler(this.listViewSanpham_ItemActivate);
             // 
             // UserProduct
             // 
@@ -75,6 +76,6 @@
         #endregion
         private System.Windows.Forms.ComboBox CbSapxep;
         private System.Windows.Forms.ImageList imageSanPham;
-        private System.Windows.Forms.ListView listViewSanpham;
+        public System.Windows.Forms.ListView listViewSanpham;
     }
 }

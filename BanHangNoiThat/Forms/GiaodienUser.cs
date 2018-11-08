@@ -9,6 +9,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BanHangNoiThat.Forms.UsersControl;
 
 namespace BanHangNoiThat.Forms
 {
@@ -58,10 +59,6 @@ namespace BanHangNoiThat.Forms
             }
         }
 
-        private void bunifuImageButton5_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void bunifuHome_Click(object sender, EventArgs e)
         {
@@ -111,6 +108,21 @@ namespace BanHangNoiThat.Forms
         private void addCart1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
+        {
+            useInformation1.BringToFront();
+        }
+
+        private void useInformation1_Load(object sender, EventArgs e)
+        {
+
+        }
+        public static void addUserControl(UserControl frm)
+        {
+            
+            frm.BringToFront();
         }
     }
 }

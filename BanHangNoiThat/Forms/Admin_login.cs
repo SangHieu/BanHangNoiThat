@@ -104,6 +104,16 @@ namespace BanHangNoiThat.Forms
                 txtPass.UseSystemPasswordChar = true;
         }
 
+        private void Lablename_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void IPComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             IDname = txtID.Text.Trim().ToString();

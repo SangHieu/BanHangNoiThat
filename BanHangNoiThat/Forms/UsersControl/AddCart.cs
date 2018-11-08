@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using BanHangNoiThat.Forms;
+
 namespace BanHangNoiThat.Forms.UsersControl
 {
     public partial class AddCart : UserControl
@@ -16,7 +18,7 @@ namespace BanHangNoiThat.Forms.UsersControl
         {
             InitializeComponent();
         }
-
+      
         private void Motasp_Click(object sender, EventArgs e)
         {
            
@@ -27,13 +29,39 @@ namespace BanHangNoiThat.Forms.UsersControl
 
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void AddCart_Load(object sender, EventArgs e)
         {
-            listviewsp.LargeImageList = imageList1;
-            ListViewItem iteam = new ListViewItem("Tên sản phẩm",0);
-            ListViewItem.ListViewSubItem subiteam = new ListViewItem.ListViewSubItem(iteam, "Cái lìn gì thế");
-            iteam.SubItems.Add(subiteam);
-            listviewsp.Items.Add(iteam);
+            load();
+        }
+        void load()
+        {
+            Txtname.Enabled = false;
+            txtDiachi.Enabled = false;
+            txtSdt.Enabled = false;
+            txtemal.Enabled = false;
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            Txtname.Enabled = true;
+            txtDiachi.Enabled = true;
+            txtSdt.Enabled = true;
+            txtemal.Enabled = true;
+        }
+        private void dathang_Click(object sender, EventArgs e)
+        {
+            UserControl us = new UserHome();
+            GiaodienUser.addUserControl(us);
+        }
+
+        private void listViewsp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

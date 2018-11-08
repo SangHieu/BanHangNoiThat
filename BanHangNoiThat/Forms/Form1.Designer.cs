@@ -38,12 +38,16 @@
             this.password = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label3 = new System.Windows.Forms.Label();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.btnForgotPass = new System.Windows.Forms.LinkLabel();
+            this.unshowpassword = new Bunifu.Framework.UI.BunifuImageButton();
+            this.showpassword = new Bunifu.Framework.UI.BunifuImageButton();
+            this.Login_admin = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnSignin = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnexit = new System.Windows.Forms.Button();
             this.btnLogin = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.Login_admin = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btnForgotPass = new System.Windows.Forms.LinkLabel();
             this.header.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.unshowpassword)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.showpassword)).BeginInit();
             this.SuspendLayout();
             // 
             // header
@@ -142,6 +146,74 @@
             this.bunifuDragControl1.TargetControl = this.label1;
             this.bunifuDragControl1.Vertical = true;
             // 
+            // btnForgotPass
+            // 
+            this.btnForgotPass.AutoSize = true;
+            this.btnForgotPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnForgotPass.Location = new System.Drawing.Point(139, 325);
+            this.btnForgotPass.Name = "btnForgotPass";
+            this.btnForgotPass.Size = new System.Drawing.Size(121, 18);
+            this.btnForgotPass.TabIndex = 10;
+            this.btnForgotPass.TabStop = true;
+            this.btnForgotPass.Text = "Quên mật khẩu ?";
+            // 
+            // unshowpassword
+            // 
+            this.unshowpassword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.unshowpassword.BackColor = System.Drawing.SystemColors.Control;
+            this.unshowpassword.Image = global::BanHangNoiThat.Properties.Resources.Invisible_64px;
+            this.unshowpassword.ImageActive = null;
+            this.unshowpassword.Location = new System.Drawing.Point(329, 181);
+            this.unshowpassword.Name = "unshowpassword";
+            this.unshowpassword.Size = new System.Drawing.Size(27, 27);
+            this.unshowpassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.unshowpassword.TabIndex = 24;
+            this.unshowpassword.TabStop = false;
+            this.unshowpassword.Zoom = 10;
+            this.unshowpassword.Click += new System.EventHandler(this.unshowpassword_Click);
+            // 
+            // showpassword
+            // 
+            this.showpassword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.showpassword.BackColor = System.Drawing.SystemColors.Control;
+            this.showpassword.Image = global::BanHangNoiThat.Properties.Resources.Eye_64px;
+            this.showpassword.ImageActive = null;
+            this.showpassword.Location = new System.Drawing.Point(329, 181);
+            this.showpassword.Name = "showpassword";
+            this.showpassword.Size = new System.Drawing.Size(27, 27);
+            this.showpassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.showpassword.TabIndex = 23;
+            this.showpassword.TabStop = false;
+            this.showpassword.Visible = false;
+            this.showpassword.Zoom = 10;
+            this.showpassword.Click += new System.EventHandler(this.bunifuImageButton4_Click);
+            // 
+            // Login_admin
+            // 
+            this.Login_admin.ActiveBorderThickness = 1;
+            this.Login_admin.ActiveCornerRadius = 20;
+            this.Login_admin.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.Login_admin.ActiveForecolor = System.Drawing.Color.White;
+            this.Login_admin.ActiveLineColor = System.Drawing.Color.DarkOrange;
+            this.Login_admin.BackColor = System.Drawing.SystemColors.Control;
+            this.Login_admin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Login_admin.BackgroundImage")));
+            this.Login_admin.ButtonText = "Đăng nhập với tư cách quản trị viên";
+            this.Login_admin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Login_admin.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login_admin.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Login_admin.IdleBorderThickness = 1;
+            this.Login_admin.IdleCornerRadius = 20;
+            this.Login_admin.IdleFillColor = System.Drawing.Color.DarkGray;
+            this.Login_admin.IdleForecolor = System.Drawing.Color.White;
+            this.Login_admin.IdleLineColor = System.Drawing.Color.Silver;
+            this.Login_admin.Location = new System.Drawing.Point(95, 363);
+            this.Login_admin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Login_admin.Name = "Login_admin";
+            this.Login_admin.Size = new System.Drawing.Size(215, 33);
+            this.Login_admin.TabIndex = 9;
+            this.Login_admin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Login_admin.Click += new System.EventHandler(this.Login_admin_Click);
+            // 
             // btnSignin
             // 
             this.btnSignin.ActiveBorderThickness = 1;
@@ -207,47 +279,12 @@
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // Login_admin
-            // 
-            this.Login_admin.ActiveBorderThickness = 1;
-            this.Login_admin.ActiveCornerRadius = 20;
-            this.Login_admin.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.Login_admin.ActiveForecolor = System.Drawing.Color.White;
-            this.Login_admin.ActiveLineColor = System.Drawing.Color.DarkOrange;
-            this.Login_admin.BackColor = System.Drawing.SystemColors.Control;
-            this.Login_admin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Login_admin.BackgroundImage")));
-            this.Login_admin.ButtonText = "Đăng nhập với tư cách quản trị viên";
-            this.Login_admin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Login_admin.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login_admin.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Login_admin.IdleBorderThickness = 1;
-            this.Login_admin.IdleCornerRadius = 20;
-            this.Login_admin.IdleFillColor = System.Drawing.Color.DarkGray;
-            this.Login_admin.IdleForecolor = System.Drawing.Color.White;
-            this.Login_admin.IdleLineColor = System.Drawing.Color.Silver;
-            this.Login_admin.Location = new System.Drawing.Point(95, 363);
-            this.Login_admin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Login_admin.Name = "Login_admin";
-            this.Login_admin.Size = new System.Drawing.Size(215, 33);
-            this.Login_admin.TabIndex = 9;
-            this.Login_admin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Login_admin.Click += new System.EventHandler(this.Login_admin_Click);
-            // 
-            // btnForgotPass
-            // 
-            this.btnForgotPass.AutoSize = true;
-            this.btnForgotPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnForgotPass.Location = new System.Drawing.Point(139, 325);
-            this.btnForgotPass.Name = "btnForgotPass";
-            this.btnForgotPass.Size = new System.Drawing.Size(121, 18);
-            this.btnForgotPass.TabIndex = 10;
-            this.btnForgotPass.TabStop = true;
-            this.btnForgotPass.Text = "Quên mật khẩu ?";
-            // 
             // Login
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(395, 439);
+            this.Controls.Add(this.unshowpassword);
+            this.Controls.Add(this.showpassword);
             this.Controls.Add(this.btnForgotPass);
             this.Controls.Add(this.Login_admin);
             this.Controls.Add(this.btnSignin);
@@ -265,6 +302,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.unshowpassword)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.showpassword)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,6 +324,8 @@
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.Framework.UI.BunifuThinButton2 Login_admin;
         private System.Windows.Forms.LinkLabel btnForgotPass;
+        private Bunifu.Framework.UI.BunifuImageButton showpassword;
+        private Bunifu.Framework.UI.BunifuImageButton unshowpassword;
     }
 }
 

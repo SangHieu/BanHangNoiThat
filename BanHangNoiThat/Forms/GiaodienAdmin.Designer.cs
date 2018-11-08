@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GiaodienAdmin));
             this.header = new System.Windows.Forms.Panel();
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
@@ -37,6 +38,8 @@
             this.btnHomeAmin = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnMenu = new Bunifu.Framework.UI.BunifuImageButton();
             this.contaner = new System.Windows.Forms.Panel();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.aminQLSP1 = new BanHangNoiThat.Forms.Amincontrol.AminQLSP();
             this.aminQLKH1 = new BanHangNoiThat.Forms.Amincontrol.AminQLKH();
             this.header.SuspendLayout();
@@ -68,6 +71,7 @@
             this.bunifuImageButton2.TabIndex = 20;
             this.bunifuImageButton2.TabStop = false;
             this.bunifuImageButton2.Zoom = 10;
+            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
             // 
             // SideMenu
             // 
@@ -210,9 +214,21 @@
             this.contaner.Size = new System.Drawing.Size(783, 490);
             this.contaner.TabIndex = 5;
             // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 20;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.header;
+            this.bunifuDragControl1.Vertical = true;
+            // 
             // aminQLSP1
             // 
-            this.aminQLSP1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.aminQLSP1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.aminQLSP1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.aminQLSP1.Location = new System.Drawing.Point(0, 0);
             this.aminQLSP1.Name = "aminQLSP1";
@@ -260,5 +276,7 @@
         private System.Windows.Forms.Panel contaner;
         private Amincontrol.AminQLSP aminQLSP1;
         private Amincontrol.AminQLKH aminQLKH1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
     }
 }

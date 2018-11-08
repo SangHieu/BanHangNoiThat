@@ -99,6 +99,12 @@
     <Compile Include="Forms\Amincontrol\AminQLSP.Designer.cs">
       <DependentUpon>AminQLSP.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Detailproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Detailproduct.Designer.cs">
+      <DependentUpon>Detailproduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,11 +135,11 @@
     <Compile Include="Forms\UsersControl\AddCart.Designer.cs">
       <DependentUpon>AddCart.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UsersControl\DetailProduct.cs">
+    <Compile Include="Forms\UsersControl\UseInformation.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\UsersControl\DetailProduct.Designer.cs">
-      <DependentUpon>DetailProduct.cs</DependentUpon>
+    <Compile Include="Forms\UsersControl\UseInformation.Designer.cs">
+      <DependentUpon>UseInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\UsersControl\UserContact.cs">
       <SubType>UserControl</SubType>
@@ -153,12 +159,6 @@
     <Compile Include="Forms\UsersControl\UserProduct.Designer.cs">
       <DependentUpon>UserProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UsersControl\UserSale.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Forms\UsersControl\UserSale.Designer.cs">
-      <DependentUpon>UserSale.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Admin_login.resx">
@@ -169,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Amincontrol\AminQLSP.resx">
       <DependentUpon>AminQLSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Detailproduct.resx">
+      <DependentUpon>Detailproduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -185,8 +188,8 @@
     <EmbeddedResource Include="Forms\UsersControl\AddCart.resx">
       <DependentUpon>AddCart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UsersControl\DetailProduct.resx">
-      <DependentUpon>DetailProduct.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\UsersControl\UseInformation.resx">
+      <DependentUpon>UseInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UsersControl\UserContact.resx">
       <DependentUpon>UserContact.cs</DependentUpon>
@@ -196,9 +199,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UsersControl\UserProduct.resx">
       <DependentUpon>UserProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UsersControl\UserSale.resx">
-      <DependentUpon>UserSale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -230,6 +230,12 @@
   <ItemGroup>
     <Content Include="images\power.png" />
     <Content Include="images\SP01.jpg" />
+    <None Include="Resources\Invisible_64px.png" />
+    <None Include="Resources\Eye_64px.png" />
+    <None Include="Resources\User_48px.png" />
+    <None Include="Resources\Camera_64px.png" />
+    <None Include="Resources\Email_52px.png" />
+    <None Include="Resources\Male User_52px.png" />
     <None Include="Resources\1101435913439.6843.jpg" />
     <None Include="Resources\Delete_48px.png" />
     <None Include="Resources\Home_48px.png" />

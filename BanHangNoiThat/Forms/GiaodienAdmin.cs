@@ -26,5 +26,10 @@ namespace BanHangNoiThat.Forms
         {
             aminQLSP1.BringToFront();
         }
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

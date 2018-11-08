@@ -152,5 +152,19 @@ namespace BanHangNoiThat
             }
         }
 
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
+        {
+            password.isPassword = true;
+            showpassword.Visible =false;
+            unshowpassword.Visible = true;
+        }
+
+        private void unshowpassword_Click(object sender, EventArgs e)
+        {
+           
+            password.isPassword = false;
+            unshowpassword.Visible = false;
+            showpassword.Visible = true;
+        }
     }
 }
